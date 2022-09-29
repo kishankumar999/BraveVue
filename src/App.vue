@@ -7,7 +7,7 @@
 
     <!-- Preview Panel -->
     <div
-        class="fixed top-0 left-60 h-screen w-[calc(100vw_-_240px)] bg-white dark:bg-zinc-800 p-4 dark:text-white overflow-auto">
+        class="fixed top-0 left-60 h-screen w-[calc(100vw_-_240px)] bg-white dark:bg-zinc-800 px-7 py-7 dark:text-white overflow-auto">
         <router-view />
     </div>
 </template>
