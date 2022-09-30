@@ -1,8 +1,9 @@
 import Home from '../pages/home.vue';
-import About from '../pages/draggable.vue';
+import TabPanel from '../pages/TabPanel.vue';
+
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/draggable', component: About },
+  { path: '/TabPanel', component: TabPanel },
 ];
 export default routes;
